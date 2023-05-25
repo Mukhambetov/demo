@@ -1,0 +1,7 @@
+spring.datasource.url=jdbc:postgresql://${HOST}:5432/${DB_NAME}
+spring.datasource.username={USERNAME}
+spring.datasource.password={PASSWORD}
+logging.level._org.springframework.web.servlet.HandlerMapping.Mappings = debug
+springdoc.api-docs.enabled=true
+springdoc.api-docs.path=/docs
+springdoc.api-docs.groups.enabled=true
